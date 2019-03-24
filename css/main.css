@@ -16,7 +16,16 @@ html {
 }
 
 .blast:hover {
-  color: #48cbe2;
+  color: #f5e65c;
+}
+
+.btn {
+  color: #f1db14 !important;
+  background: #333533;
+}
+
+.btn :hover {
+  background: #242423;
 }
 
 .sticky.is-sticky {
@@ -29,7 +38,7 @@ html {
 }
 
 nav {
-  background-color: black;
+  background-color: #242423 !important;
 }
 
 nav li {
@@ -38,16 +47,16 @@ nav li {
 
 .About {
   height: calc(100vh);
-  background-color: #444;
+  background-color: #333533;
 }
 
 .About p {
-  color: #fff;
+  color: #f5f1ed;
 }
 
 .About h1 {
   text-align: center;
-  color: #fff;
+  color: #f5f1ed;
   font-size: 3vw;
   padding: 5%;
 }
@@ -57,8 +66,8 @@ nav li {
 }
 
 .about-info {
-  padding: 5% 0 5% 15%;
-  font-size: 1.5vw;
+  padding: 3% 0 5% 10%;
+  font-size: 20px;
 }
 
 .border-box-styling {
@@ -106,7 +115,7 @@ nav li {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #48cbe2;
+  background: #f5e65c;
   -webkit-animation: animate 4s linear infinite;
           animation: animate 4s linear infinite;
 }
@@ -196,7 +205,7 @@ nav li {
 }
 
 .skills {
-  padding: 0 10% 0 10%;
+  padding: 10% 10% 0 10%;
 }
 
 .flex-container {
@@ -210,29 +219,29 @@ nav li {
 }
 
 .flex-container > div {
-  width: 600px;
+  width: 500px;
   margin: 10px;
-  background: grey;
+  background: #242423;
 }
 
 .bar-fill {
-  background: #48cbe2;
+  background: #f5e65c;
 }
 
 .bar-tag {
-  background: #22bad5;
+  background: #f2df2c;
   width: 100px;
   text-align: center;
 }
 
 .Work .work-photo {
   height: calc(100vh);
-  background: #444;
+  background: #333533;
 }
 
 .Work .work-photo h2 {
   text-align: center;
-  color: #fff;
+  color: #f5f1ed;
   padding-top: 5%;
 }
 
@@ -246,12 +255,14 @@ nav li {
 }
 
 .ContactMe {
-  height: calc(100vh);
-  background: #444;
+  height: calc(110vh);
+  background: #242423;
+  padding-top: 10%;
 }
 
 .contact-form {
-  background: #fff;
+  top: 30px;
+  background: #f5f1ed;
   margin-bottom: 5%;
   width: 70%;
 }
@@ -284,7 +295,7 @@ nav li {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
-  color: #48cbe2;
+  color: #f1db14;
 }
 
 .contact-form .btnContact {
@@ -292,9 +303,9 @@ nav li {
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #48cbe2;
+  background: #f1db14;
   font-weight: 600;
-  color: #fff;
+  color: #f5f1ed;
   cursor: pointer;
 }
 
@@ -302,8 +313,8 @@ nav li {
   width: 50%;
   border-radius: 1rem;
   padding: 1.5%;
-  color: #fff;
-  background-color: #48cbe2;
+  color: #f5f1ed;
+  background-color: #f5e65c;
   border: none;
   cursor: pointer;
 }
@@ -314,7 +325,7 @@ nav li {
 
 .icons {
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -333,30 +344,30 @@ nav li {
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
-  border: 5px solid grey;
+  border: 5px solid #242423;
   float: left;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .icons ul li .fab {
-  color: grey;
+  color: #333533;
   margin-top: 15px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .icons ul li:hover {
-  border: 5px solid #48cbe2;
-  -webkit-box-shadow: 0 0 15px #48cbe2;
-          box-shadow: 0 0 15px #48cbe2;
+  border: 5px solid #f5e65c;
+  -webkit-box-shadow: 0 0 15px #f5e65c;
+          box-shadow: 0 0 15px #f5e65c;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .icons ul li:hover .fab {
-  color: #48cbe2;
-  text-shadow: 0 0 15px #48cbe2;
+  color: #f5e65c;
+  text-shadow: 0 0 15px #f5e65c;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
