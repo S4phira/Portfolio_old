@@ -263,6 +263,7 @@ nav a {
   background: #aaa79b;
   margin-bottom: 5%;
   width: 70%;
+  border-radius: 1rem;
 }
 
 .contact-form .form-control {
@@ -527,7 +528,7 @@ nav a {
   background-color: #131111;
   color: #fff;
   text-align: center;
-  height: 50px;
+  height: 55px;
 }
 
 .footer p {
